@@ -12,7 +12,7 @@ import React from 'react';
             <>
                 {/* <h3>Good Morning {props.name}!</h3>
                 <p>You have {props.numberOfMessages} new messages</p> */}
-                <h3>Good Morning {name}!</h3>
+                <h3>Good Morning! {name}!</h3>
                 <p>You have {numberOfMessages} new messages</p>
             </>
         )
