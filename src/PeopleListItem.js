@@ -1,9 +1,10 @@
 import React from 'react'
+import './PeopleListItem.css'
 
-export const PeopleListItem = ({ person }) => {
-    <div>
+export const PeopleListItem = ({ person }) => (
+    <div className="list-item-container">
         <h3>{person.name}</h3>
         <p>{person.age}</p>
         <p>{person.hairColor}</p>
     </div>
-}
+)

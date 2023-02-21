@@ -19,7 +19,7 @@ const people = [
   age: 55,
   hairColor: 'orange'
 },
-]
+];
 
 function App() {
   
@@ -32,7 +32,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <PeopleList people={people}/>
         <p>
-          Thi is so cool!!. Yes it is!
+          Thi is so cool!!!. Yes it is!
         </p>
         <a
           className="App-link"
