@@ -4,9 +4,11 @@ import {Greeting} from './Greeting'
 import { PeopleList } from './PeopleList';
 
 const people = [
-{name: 'John',
-age: 40,
-hairColor: 'brown'},
+{
+  name: 'John',
+  age: 40,
+  hairColor: 'brown'
+},
 {
   name: 'Helga',
   age: 25,
@@ -15,7 +17,7 @@ hairColor: 'brown'},
 {
   name: 'Dwayne',
   age: 55,
-  hairColor: 'blonde'
+  hairColor: 'orange'
 },
 ]
 
@@ -27,7 +29,8 @@ function App() {
       <Greeting name="Abhi" numberOfMessages={202}/>
       {/* <Greeting  numberOfMessages={202}/> */}
         {/* {greetingElement} */}
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <PeopleList people={people}/>
         <p>
           Thi is so cool!!. Yes it is!
         </p>
